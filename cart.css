@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Alegreya",serif;
+    font-style: normal;
+
+}
+body{
+  height: auto;
+    background: linear-gradient(130deg,#378CE7,#5356FF,#67C6E3,#5356FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 100%;
+  
+    
+}
+.header{
+    margin: 20px auto;
+    width: 85%;
+    height: 70px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 550px;
+   
+}
+.header h1{
+    color: #fff;
+}
+.nav{
+    display: flex;
+gap: 20px;
+}
+
+.nav button{
+ font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #fff;
+}
+.nav button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 10px #67C6E3;
+    background: linear-gradient(135deg,#378CE7,#5356FF);
+ 
+}
+.card{
+
+    width: 85%;
+    margin: 100px auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.cards{
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    /* border:2px solid #fff; */
+
+}
+.card-image{
+    outline:1px solid;
+    /* outline-offset: ; */
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.card-image img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+  
+}
+.card-image img:hover{
+
+    transform: scale(.9);
+}
+.card h2{
+    margin-top:10px;
+   font-size: 22px;
+}
+.cards p{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    
+}
+.cards button{
+    margin:13px 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow:(0px 2px 7px rgba(241,44,51,0.7))
+}
+.cards button:hover{
+    color: #fff;
+    background :linear-gradient(135deg,#378CE7,#5356FF);
+    box-shadow: 0px 0px 10px #67C6E3;
+  
+}
+.new{
+    width: 85%;
+    margin: 100px auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.detail-form{
+    width: 85%;
+    margin: -150px auto 0px ;
+
+  
+ 
+}
+.detail-form form{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #fff;
+    padding:20px 10px;
+    
+}
+.detail-form form input{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.detail-form form button{
+    padding: 10px 40px;
+    border: none;
+    outline: none ;
+    border-radius: 30px;
+}
+.detail-form form button:hover{
+    color: #ffff;
+    background: linear-gradient(135deg,#378CE7,#5356FF);
+    box-shadow: 0px 0px 10px #67C6E3;
+}
+
+.update{
+    width: 100%;
+    padding: 10px 60px;
+    margin: 100px auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
