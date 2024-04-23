@@ -1,4 +1,4 @@
-{
+let arr={
     "products": [
       {
         "id": 1,
@@ -557,3 +557,12 @@
     "skip": 0,
     "limit": 30
   }
+
+
+  arr.products.map((e)=>{
+    console.log(e.brand)
+})
+let obj={title:"mani",price:"8989"}
+arr.products.unshift(obj)
+
+console.log(arr.products);

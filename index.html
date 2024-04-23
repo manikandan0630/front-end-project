@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +17,7 @@
 
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./main.js" type="text/javascript"></script>
+    <script src="./JS/main.js" type="text/javascript"></script>
     <div class="main">
         <div class="login">
             <div class="login-page">
@@ -31,11 +31,12 @@
                     <p class="err-user" style="font-weight: bold;">Enter the username</p>
                     <label for="">Password</label>
                  
-                    <input type="text" name="" id="pwd" placeholder="password">
+                    <input type="password" name="" id="pwd" placeholder="password">
                     <p class="err-pwd">Enter the password</p>
-                    <i class="fa-solid fa-eye-slash"></i>
+                    <i class="fa-solid fa-eye-slash" id="icon"></i>
                     <span>Forgot password?</span>
-                    <button id="submit">SIGN IN</button>
+                    <button id="submit">LOGIN </button>
+                    <p style="text-align: center;">You dont have account ?<a href="./signup.html">Signup</a></p>
                    
                 </form>
             </div>

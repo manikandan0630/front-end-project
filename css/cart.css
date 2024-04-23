@@ -6,7 +6,7 @@
 
 }
 body{
-  height: auto;
+ 
     background: linear-gradient(130deg,#378CE7,#5356FF,#67C6E3,#5356FF);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ gap: 20px;
 .card{
 
     width: 85%;
-    margin: 100px auto;
+    margin: 80px auto;
    display: grid;
    grid-template-columns: repeat(3,1fr);
     gap: 30px;
@@ -111,6 +111,27 @@ gap: 20px;
     box-shadow: 0px 0px 10px #67C6E3;
   
 }
+.cards .icon{
+    display: flex;
+    gap: 7px;
+}
+.icon i:first-child{
+ 
+    font-size: 25px;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.icon i:last-child{
+
+    font-size: 25px;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.icon i:hover{
+    color: #fff;
+    background: linear-gradient(135deg,#378CE7,#67C6E3);
+}
 .new{
     width: 85%;
     margin: 100px auto;
@@ -121,9 +142,7 @@ gap: 20px;
 
 .detail-form{
     width: 85%;
-    margin: -150px auto 0px ;
-
-  
+    /* margin: 150px 40px  ; */
  
 }
 .detail-form form{
@@ -156,10 +175,11 @@ gap: 20px;
     background: linear-gradient(135deg,#378CE7,#5356FF);
     box-shadow: 0px 0px 10px #67C6E3;
 }
-
 .update{
-    width: 100%;
-    padding: 10px 60px;
+    margin-top: -180px ;
+}
+.update-show{
+    width: 85%;
     margin: 100px auto;
    display: grid;
    grid-template-columns: repeat(3,1fr);
