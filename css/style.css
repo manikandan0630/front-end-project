@@ -40,8 +40,6 @@ body{
     font-weight: bold;
 }
 .login-page form input{
-
-
     width: 250px;
     outline: none;
     border: none;
@@ -57,13 +55,8 @@ body{
     position: relative;
     top: -32px;
     left: 260px;
+    cursor: pointer;
    
-}
-.login-page form span{
-    margin-left: 170px;
-    margin-top: -20px;
-    color: #fff;
-    font-weight: 500;
 }
 .login-page form button{
     font-weight: bold;
@@ -82,13 +75,23 @@ body{
     transition: transform 2s ease-in-out;
     transform: scale(1.1);
 }
-.login-page form p{
-    color: #ffff;
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    align-items: center;
+margin:-15px 0px 15px;
 }
-.login-page form p a{
-    padding: 0px 5px;
-    color: #FFF;
+.remember-forgot input{
+    width: auto!important;
+    padding: 5px 10px!important;
+    border-radius: 15px!important;
 }
+.remember-forgot a{
+    color: #fff;
+    font-weight: bold;
+}
+
 .icons{
     margin-top:20px;
     display: flex;
